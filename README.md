@@ -2,7 +2,7 @@ Send Email from ruby
 ====================
 
 
-Here I made an email set-up for ruby ActionMailer
+Here I made an email set-up using ActionMailer
 
 Download this project and run following commands
 
