@@ -93,3 +93,4 @@ if those config was exit then just change the value else add the line
 
 Here set your Email and password for user_name: and password:
   
+Vist here "http://localhost:3000/users" and create a user. User will get a mail after created successfully. hooo :)
