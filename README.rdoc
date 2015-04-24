@@ -94,3 +94,6 @@ if those config was exit then just change the value else add the line
 Here set your Email and password for user_name: and password:
   
 Vist here "http://localhost:3000/users" and create a user. User will get a mail after created successfully. hooo :)
+
+
+[ ![Codeship Status for sselvamani22/send_email](https://codeship.com/projects/f18c5730-cc5b-0132-01ab-7a3494c6b360/status?branch=master)](https://codeship.com/projects/76009)
