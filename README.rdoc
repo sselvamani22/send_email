@@ -81,7 +81,7 @@ if those config was exit then just change the value else add the line
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.default :charset => "utf-8"
   
-7. Set your SMTP setting. 
+7.Set your SMTP setting. 
 You can configu your smtp as your wish for who provider best for you. Here I configure GMAIL and MANDEILL
 
   config.action_mailer.smtp_settings = {
