@@ -81,14 +81,27 @@ if those config was exit then just change the value else add the line
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.default :charset => "utf-8"
   
-    config.action_mailer.smtp_settings = {
+7. Set your SMTP setting. 
+You can configu your smtp as your wish for who provider best for you. Here I configure GMAIL and MANDEILL
+
+  config.action_mailer.smtp_settings = {
     address: "smtp.gmail.com",
     port: 587,
     domain: ENV["DOMAIN_NAME"],
     authentication: "plain",
     enable_starttls_auto: true,
-    user_name: "your email",
-    password: "your password"
+    user_name: "gmail email-id",
+    password: "gmail password"
+  }
+
+  config.action_mailer.smtp_settings = {
+    :address   => "smtp.mandrillapp.com",
+    :port      => 587,
+    :enable_starttls_auto => true,
+    :user_name => "mandrill username",
+    :password  => "mandrill API-KEY",
+    :authentication => 'login',
+    :domain => ENV["DOMAIN_NAME"]
   }
 
 Here set your Email and password for user_name: and password:
