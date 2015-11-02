@@ -87,7 +87,7 @@ You can configu your smtp as your wish for who provider best for you. Here I con
   config.action_mailer.smtp_settings = {
     address: "smtp.gmail.com",
     port: 587,
-    domain: ENV["DOMAIN_NAME"],
+    domain: "gmail.com",
     authentication: "plain",
     enable_starttls_auto: true,
     user_name: "gmail email-id",
@@ -105,7 +105,9 @@ You can configu your smtp as your wish for who provider best for you. Here I con
   }
 
 Here set your Email and password for user_name: and password:
-  
+
+Make sure https://www.google.com/settings/security/lesssecureapps "turned on"
+
 Vist here "http://localhost:3000/users" and create a user. User will get a mail after created successfully. hooo :)
 
 "!https://codeship.com/projects/f18c5730-cc5b-0132-01ab-7a3494c6b360/status?branch=master!":https://codeship.com/projects/76009
